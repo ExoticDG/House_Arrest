@@ -1,0 +1,20 @@
+{
+  "take_me_back": {
+    "subtitle": "subtitles.take_me_back",
+    "sounds": [
+      {
+        "name": "house_arrest:take-me-back-neffex",
+        "stream": true
+      }
+    ]
+  },
+  "here_comes_the_sun": {
+    "subtitle": "subtitles.here_comes_the_sun",
+    "sounds": [
+      {
+        "name": "house_arrest:here_comes_the_sun_-_the_beatles",
+        "stream": true
+      }
+    ]
+  }
+}

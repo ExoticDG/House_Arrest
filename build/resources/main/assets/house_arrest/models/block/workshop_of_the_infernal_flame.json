@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "house_arrest:block/wotif_bottom",
+    "up": "house_arrest:block/wotif_top",
+    "north": "house_arrest:block/wotif",
+    "east": "house_arrest:block/wotif",
+    "south": "house_arrest:block/wotif",
+    "west": "house_arrest:block/wotif",
+    "particle": "house_arrest:block/wotif_bottom"
+  },
+  "render_type": "solid"
+}

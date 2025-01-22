@@ -1,0 +1,17 @@
+{
+  "_fv": 73,
+  "_type": "attribute",
+  "definition": {
+    "name": "Fearl Wolf Chance",
+    "minValue": 0.0,
+    "maxValue": 100.0,
+    "defaultValue": 20.0,
+    "addToAllEntities": false,
+    "addToPlayers": false,
+    "entities": [
+      {
+        "value": "EntityWolf"
+      }
+    ]
+  }
+}

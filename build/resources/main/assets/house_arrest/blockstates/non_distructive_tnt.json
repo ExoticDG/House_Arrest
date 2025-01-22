@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "house_arrest:block/non_distructive_tnt"
+    }
+  }
+}

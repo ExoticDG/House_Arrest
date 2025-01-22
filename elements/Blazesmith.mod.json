@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Blazesmith",
+    "pointOfInterest": {
+      "value": "CUSTOM:WorkshopoftheInfernalFlame"
+    },
+    "actionSound": {
+      "value": "entity.blaze.burn"
+    },
+    "hat": "None",
+    "professionTextureFile": "balzesmith.png",
+    "zombifiedProfessionTextureFile": "balzesmith.png"
+  }
+}

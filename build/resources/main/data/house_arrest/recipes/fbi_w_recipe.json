@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:fire_charge"
+  },
+  "base": {
+    "tag": "minecraft:planks"
+  },
+  "addition": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "result": {
+    "item": "house_arrest:fireball_infused_wood"
+  }
+}

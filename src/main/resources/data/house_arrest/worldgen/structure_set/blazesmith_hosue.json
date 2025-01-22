@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "house_arrest:blazesmith_hosue",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 10,
+    "salt": 1544982861
+  }
+}

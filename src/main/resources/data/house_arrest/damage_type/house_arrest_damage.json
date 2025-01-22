@@ -1,0 +1,6 @@
+{
+  "exhaustion": 10,
+  "message_id": "house_arrest_damage",
+  "scaling": "never",
+  "effects": "burning"
+}

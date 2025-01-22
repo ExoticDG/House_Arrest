@@ -1,0 +1,608 @@
+{
+  "mod_elements": [
+    {
+      "name": "FearlWolfChance",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fearl_wolf_chance",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/FeralWolf"
+    },
+    {
+      "name": "FeralWolfLoona",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feral_wolf_loona",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/entity/FeralWolfLoonaEntity.java",
+          "src/main/java/net/mcreator/housearrest/client/renderer/FeralWolfLoonaRenderer.java",
+          "src/main/resources/assets/house_arrest/models/item/feral_wolf_loona_spawn_egg.json"
+        ]
+      },
+      "path": "~/FeralWolf"
+    },
+    {
+      "name": "FeralWolfSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feral_wolf_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/procedures/FeralWolfSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FeralWolf"
+    },
+    {
+      "name": "FeralWolfNova",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feral_wolf_nova",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/house_arrest/models/item/feral_wolf_nova_spawn_egg.json",
+          "src/main/java/net/mcreator/housearrest/client/renderer/FeralWolfNovaRenderer.java",
+          "src/main/java/net/mcreator/housearrest/entity/FeralWolfNovaEntity.java"
+        ]
+      },
+      "path": "~/FeralWolf"
+    },
+    {
+      "name": "FeralChance",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feral_chance",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      },
+      "path": "~/FeralWolf"
+    },
+    {
+      "name": "KillFeralCMD",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_feral_cmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/command/KillFeralCMDCommand.java"
+        ]
+      },
+      "path": "~/FeralWolf"
+    },
+    {
+      "name": "KillFeral",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_feral",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/procedures/KillFeralProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FeralWolf"
+    },
+    {
+      "name": "Blazesmith",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazesmith",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/House_Arrest/Blazesmith"
+    },
+    {
+      "name": "BlazesmithTrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazesmith_trades",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/House_Arrest/Blazesmith"
+    },
+    {
+      "name": "BlazesmithHosue",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazesmith_hosue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/house_arrest/worldgen/structure_set/blazesmith_hosue.json",
+          "src/main/resources/data/house_arrest/worldgen/template_pool/blazesmith_hosue.json",
+          "src/main/resources/data/house_arrest/worldgen/structure/blazesmith_hosue.json"
+        ]
+      },
+      "path": "~/House_Arrest/Blazesmith"
+    },
+    {
+      "name": "PermadeathChance",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "permadeath_chance",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      },
+      "path": "~/House_Arrest"
+    },
+    {
+      "name": "Violation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/procedures/ViolationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/House_Arrest"
+    },
+    {
+      "name": "WorkshopoftheInfernalFlame",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workshop_of_the_infernal_flame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/house_arrest/models/item/workshop_of_the_infernal_flame.json",
+          "src/main/resources/assets/house_arrest/models/block/workshop_of_the_infernal_flame.json",
+          "src/main/resources/assets/house_arrest/blockstates/workshop_of_the_infernal_flame.json",
+          "src/main/java/net/mcreator/housearrest/block/entity/WorkshopoftheInfernalFlameBlockEntity.java",
+          "src/main/java/net/mcreator/housearrest/block/WorkshopoftheInfernalFlameBlock.java",
+          "src/main/resources/data/house_arrest/loot_tables/blocks/workshop_of_the_infernal_flame.json"
+        ]
+      },
+      "path": "~/House_Arrest/Blazesmith/Workshop_Of_The_Infernal_Flame"
+    },
+    {
+      "name": "HouseArrestCT",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_arrest_ct",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Base"
+    },
+    {
+      "name": "WOTIFGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wotifgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/world/inventory/WOTIFGUIMenu.java",
+          "src/main/java/net/mcreator/housearrest/client/gui/WOTIFGUIScreen.java"
+        ]
+      },
+      "path": "~/House_Arrest/Blazesmith"
+    },
+    {
+      "name": "FireballInfusedWood",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball_infused_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/item/FireballInfusedWoodItem.java",
+          "src/main/resources/assets/house_arrest/models/item/fireball_infused_wood.json"
+        ]
+      },
+      "path": "~/House_Arrest/Blazesmith/Workshop_Of_The_Infernal_Flame"
+    },
+    {
+      "name": "FIWrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fi_wrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/house_arrest/recipes/fbi_w_recipe.json"
+        ]
+      },
+      "path": "~/House_Arrest/Blazesmith/Workshop_Of_The_Infernal_Flame"
+    },
+    {
+      "name": "WOTIFrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woti_frecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/house_arrest/recipes/woti_frecipe.json"
+        ]
+      },
+      "path": "~/House_Arrest/Blazesmith/Workshop_Of_The_Infernal_Flame"
+    },
+    {
+      "name": "TakeMeBack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_me_back",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/item/TakeMeBackItem.java",
+          "src/main/resources/assets/house_arrest/models/item/take_me_back.json"
+        ]
+      },
+      "path": "~/Music"
+    },
+    {
+      "name": "HouseArrest",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_arrest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/command/HouseArrestCommand.java"
+        ]
+      },
+      "path": "~/Base"
+    },
+    {
+      "name": "Help",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "help",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/procedures/HelpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Base"
+    },
+    {
+      "name": "HouseArrestDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_arrest_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/house_arrest/damage_type/house_arrest_damage.json"
+        ]
+      },
+      "path": "~/House_Arrest"
+    },
+    {
+      "name": "Spawntnt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawntnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/procedures/SpawntntProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Here_Comes_The_Sun"
+    },
+    {
+      "name": "NonDistuctutiveExplotion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "non_distuctutive_explotion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/procedures/NonDistuctutiveExplotionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Here_Comes_The_Sun"
+    },
+    {
+      "name": "NonDistructiveTNTRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "non_distructive_tnt_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/procedures/NonDistructiveTNTRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Here_Comes_The_Sun"
+    },
+    {
+      "name": "NonDistructiveTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "non_distructive_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/house_arrest/models/block/non_distructive_tnt.json",
+          "src/main/resources/assets/house_arrest/models/item/non_distructive_tnt.json",
+          "src/main/java/net/mcreator/housearrest/block/NonDistructiveTNTBlock.java",
+          "src/main/resources/data/house_arrest/loot_tables/blocks/non_distructive_tnt.json",
+          "src/main/resources/assets/house_arrest/blockstates/non_distructive_tnt.json"
+        ]
+      },
+      "path": "~/Here_Comes_The_Sun"
+    },
+    {
+      "name": "ForceSun",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_sun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/command/ForceSunCommand.java"
+        ]
+      },
+      "path": "~/Here_Comes_The_Sun"
+    },
+    {
+      "name": "AutoCredit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_credit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/housearrest/procedures/AutoCreditProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Base"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "take_me_back",
+      "files": [
+        "take-me-back-neffex"
+      ],
+      "category": "music",
+      "subtitle": "Take Me Back : NEFFEX"
+    },
+    {
+      "name": "here_comes_the_sun",
+      "files": [
+        "here_comes_the_sun_-_the_beatles"
+      ],
+      "category": "music",
+      "subtitle": "Here Comes The Sun : The Beatles"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:WorkshopoftheInfernalFlame"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:WorkshopoftheInfernalFlame"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:TakeMeBack"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.house_arrest.feral_wolf_loona_spawn_egg": "Feral Wolf Loona Spawn Egg",
+      "item.house_arrest.take_me_back": "Take Me Back",
+      "subtitles.take_me_back": "Take Me Back : NEFFEX",
+      "entity.house_arrest.feral_wolf_loona": "Feral Wolf Loona",
+      "subtitles.here_comes_the_sun": "Here Comes The Sun : The Beatles",
+      "death.attack.house_arrest_damage": "%1$s violated there hosue arrest",
+      "gamerule.feralChance": "feral_chance",
+      "entity.house_arrest.feral_wolf_nova": "Feral Wolf Nova",
+      "block.house_arrest.non_distructive_tnt": "Non Distructive TNT",
+      "death.attack.house_arrest_damage.item": "%1$s was killed by %2$s using %3$s",
+      "gui.house_arrest.wotifgui.label_workshop_of_the_infernal_flame": "Workshop Of The Infernal Flame",
+      "item.house_arrest.fireball_infused_wood": "Fireball Infused Wood",
+      "item_group.house_arrest.house_arrest_ct": "House Arrest",
+      "gamerule.permadeathChance": "permadeathchance",
+      "entity.minecraft.villager.house_arrest.blazesmith": "Blazesmith",
+      "block.house_arrest.workshop_of_the_infernal_flame": "Workshopb of the Infernal Flame",
+      "gamerule.permadeathChance.description": "The chance that you perminetly die when violating your house arrest.",
+      "attribute.house_arrest.fearl_wolf_chance": "Fearl Wolf Chance",
+      "item.house_arrest.take_me_back.desc": "NEFFEX - Take Me Back",
+      "gamerule.feralChance.description": "The chance of a wolf to turn feral uppon tameing.",
+      "death.attack.house_arrest_damage.player": "%1$s violated there hosue arrest whilst trying to escape %2$s",
+      "gui.house_arrest.wotifgui.label_invintory": "Invintory",
+      "item.house_arrest.feral_wolf_nova_spawn_egg": "Feral Wolf Nova Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "FeralWolf",
+        "children": []
+      },
+      {
+        "name": "House_Arrest",
+        "children": [
+          {
+            "name": "Blazesmith",
+            "children": [
+              {
+                "name": "Workshop_Of_The_Infernal_Flame",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Music",
+        "children": []
+      },
+      {
+        "name": "Base",
+        "children": []
+      },
+      {
+        "name": "Here_Comes_The_Sun",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "house_arrest",
+    "modName": "House Arrest",
+    "version": "1.0.0",
+    "description": "Minecraft but on house arrest. Plus some bonus things.",
+    "author": "ExoticDarknessGaming",
+    "websiteURL": "https://www.youtube.com/@ExoticDarknessGaming",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "panorama_2",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "§l§4Mod by: §bExoticDarknessGaming  §l§4Blockpalette Design by: §bAveryMyst  §l§4Bulding Consept Design by: §bAveryMyst  §l§4Panorama by: §bExoticDarknessGaming",
+    "modElementsPackage": "net.mcreator.housearrest"
+  },
+  "mcreatorVersion": 202400452410
+}

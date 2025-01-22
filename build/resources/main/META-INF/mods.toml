@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Not specified"
+
+[[mods]]
+modId="house_arrest"
+version="1.0.0"
+displayName="House Arrest"
+displayURL="https://www.youtube.com/@ExoticDarknessGaming"
+logoFile="logo.png"
+credits="\u00A7l\u00A74Mod by: \u00A7bExoticDarknessGaming  \u00A7l\u00A74Blockpalette Design by: \u00A7bAveryMyst  \u00A7l\u00A74Bulding Consept Design by: \u00A7bAveryMyst  \u00A7l\u00A74Panorama by: \u00A7bExoticDarknessGaming"
+authors="ExoticDarknessGaming"
+description="Minecraft but on house arrest. Plus some bonus things."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.house_arrest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

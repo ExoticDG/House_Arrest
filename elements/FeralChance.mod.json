@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "feral_chance",
+    "description": "The chance of a wolf to turn feral uppon tameing.",
+    "category": "MOBS",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 20
+  }
+}

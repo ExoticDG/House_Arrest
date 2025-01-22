@@ -1,0 +1,38 @@
+{
+  "name": "house_arrest:blazesmith_hosue",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "house_arrest:blazesmith_house",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Name": "minecraft:grass_block"
+                },
+                {
+                  "Name": "minecraft:spruce_trapdoor"
+                },
+                {
+                  "Name": "minecraft:barrier"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "house_arrest:blocks/workshop_of_the_infernal_flame",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "house_arrest:workshop_of_the_infernal_flame"
+        }
+      ]
+    }
+  ]
+}

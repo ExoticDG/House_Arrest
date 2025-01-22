@@ -1,0 +1,10 @@
+{
+  "_fv": 73,
+  "_type": "command",
+  "definition": {
+    "commandName": "force_sun",
+    "type": "CLIENTSIDE",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"252\" y=\"181\"><next><block type=\"call_procedure\"><field name=\"procedure\">Spawntnt</field></block></next></block></xml>"
+  }
+}
